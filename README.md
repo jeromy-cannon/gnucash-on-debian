@@ -14,3 +14,7 @@ use the maint branch:
 ```
 $ git clone https://github.com/Gnucash/gnucash.git gnucash
 ```
+run the build script, and see if you have any unmet dependencies...
+```
+$ ./build.sh
+```
