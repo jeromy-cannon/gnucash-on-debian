@@ -21,6 +21,7 @@ $ ./build.sh
 update your environment variables if needed:
 ```
 $ echo 'export PATH="~/.local/bin:$PATH"'>> ~/.bashrc
+$ echo 'export PATH="~/.local/bin:$PATH"'>> ~/.profile
 ```
 if you reload your terminal, and run gnucash --version, you should see it updated.
 if you run your icon, and it doesn't pick up the right version, you might need to edit your /usr/share/applications/gnucash.desktop file or logoff/logon to pick up the .bashrc change.
