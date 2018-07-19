@@ -25,3 +25,4 @@ $ echo 'export PATH="~/.local/bin:$PATH"'>> ~/.profile
 ```
 if you reload your terminal, and run gnucash --version, you should see it updated.
 if you run your icon, and it doesn't pick up the right version, you might need to edit your /usr/share/applications/gnucash.desktop file or logoff/logon to pick up the .bashrc change.
+For some reason, it wasn't using my env variable PATH correctly, so I just overrode the desktop Exec=~/.local/bin/gnucash %f
